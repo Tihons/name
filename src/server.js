@@ -4,7 +4,7 @@ import pino from 'pino-http';
 import mongoose from 'mongoose';
 import { env } from './utils/env.js';
 import { envVars } from './constants/envVars.js';
-import { getAllContacts, getContactById } from './services/contacts.js';
+import {  getAllContacts ,getContactById } from './services/contacts.js'
 
 const PORT = env(envVars.PORT, 3000);
 
